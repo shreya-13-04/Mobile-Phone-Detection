@@ -1,0 +1,22 @@
+digraph {
+	size=10
+	A [label=Start]
+	B [label="Capture Video Frame"]
+	C [label="Preprocess Frame"]
+	D [label="Apply YOLOv8 Detection"]
+	E [label="Phone Detected?"]
+	F [label="Extract Region of Interest (ROI)"]
+	G [label="Trigger Alert (if required)"]
+	H [label="Store Detection Results"]
+	I [label=End]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F [label=Yes]
+	E -> B [label=No]
+	F -> G
+	G -> H
+	H -> B
+	B -> I
+}

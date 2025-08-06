@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLOv8 Model Flow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .flow-container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            padding: 20px;
+        }
+        .flow-step {
+            background-color: #ffffff;
+            padding: 0px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 14px;
+        }
+        .flow-step h3 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        .flow-step p {
+            font-size: 12px;
+            color: #555;
+        }
+        .arrow {
+            font-size: 30px;
+            color: #666;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .arrow:before {
+            content: "↓";
+        }
+        .flow-step:nth-child(odd) {
+            background-color: #e6f7ff;
+        }
+        .flow-step:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flow-container">
+        <div class="flow-step">
+            <h3>Preprocessed & Annotated Images</h3>
+        </div>
+        <div class="arrow"></div>
+        
+        <div class="flow-step">
+            <h3>Input to YOLOv8 Model</h3>
+        </div>
+        <div class="arrow"></div>
+        
+        <div class="flow-step">
+            <h3>Forward Propagation</h3>
+        </div>
+        <div class="arrow"></div>
+        
+        <div class="flow-step">
+            <h3>Loss Calculation</h3>
+        </div>
+        <div class="arrow"></div>
+        
+        <div class="flow-step">
+            <h3>Backpropagation & Update</h3>
+        </div>
+        <div class="arrow"></div>
+        
+        <div class="flow-step">
+            <h3>Next Epoch</h3>
+        </div>
+    </div>
+
+</body>
+</html>

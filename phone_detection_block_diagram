@@ -1,0 +1,18 @@
+digraph PhoneDetectionSystem {
+	A [label="Webcam Input" fillcolor=lightblue shape=ellipse style=filled]
+	B [label="Frame Preprocessing
+(Resizing, ROI Selection)" fillcolor=lightgray shape=box style=filled]
+	C [label="YOLOv8 Model
+(Object Detection)" fillcolor=lightyellow shape=parallelogram style=filled]
+	D [label="Detection Analysis
+(Confidence Score, Filtering)" fillcolor=lightgray shape=box style=filled]
+	E [label="Alert System
+(Sound & Visual Cues)" fillcolor=lightpink shape=ellipse style=filled]
+	F [label="Display Processed Frame" fillcolor=lightgreen shape=box style=filled]
+	A -> B [label=" Captures Frames "]
+	B -> C [label=" ROI Processed Frame "]
+	C -> D [label=" Detected Objects "]
+	D -> E [label=" Trigger Alert if Phone Found "]
+	D -> F [label=" Draw Bounding Boxes "]
+	E -> F [label=" Update UI "]
+}

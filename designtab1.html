@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confusion Matrix Terms</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      padding: 40px;
+    }
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 16px 20px;
+      text-align: left;
+    }
+    th {
+      background-color: #004080;
+      color: white;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    tr:nth-child(even) {
+      background-color: #f0f4f8;
+    }
+    tr:hover {
+      background-color: #e6f2ff;
+    }
+    td strong {
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Term</th>
+        <th>Meaning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>TP (True Positive)</strong></td>
+        <td>Model correctly predicts a positive (e.g., phone is present, and detected).</td>
+      </tr>
+      <tr>
+        <td><strong>TN (True Negative)</strong></td>
+        <td>Model correctly predicts a negative (e.g., no phone, and not detected).</td>
+      </tr>
+      <tr>
+        <td><strong>FP (False Positive)</strong></td>
+        <td>Model predicts phone is present, but it’s not.</td>
+      </tr>
+      <tr>
+        <td><strong>FN (False Negative)</strong></td>
+        <td>Model fails to detect a phone that is actually there.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

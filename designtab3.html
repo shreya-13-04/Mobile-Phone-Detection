@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>System Comparison</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      padding: 40px;
+    }
+
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 16px 20px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #004080;
+      color: white;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f0f4f8;
+    }
+
+    tr:hover {
+      background-color: #e6f2ff;
+    }
+
+    td strong {
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>System</th>
+        <th>Accuracy (%)</th>
+        <th>Detection Speed (FPS)</th>
+        <th>Real-Time Alerts</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Manual Supervision</strong></td>
+        <td>73.2</td>
+        <td>N/A</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td><strong>Traditional CCTV</strong></td>
+        <td>80.1</td>
+        <td>10–12</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td><strong>YOLOv8 Detection</strong></td>
+        <td>91.4</td>
+        <td>18–22</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
