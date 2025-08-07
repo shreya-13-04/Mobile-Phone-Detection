@@ -256,10 +256,6 @@ This implementation is based on the research paper:
 Authors: Shreya B, Pooja Shree S, Jeyakumar G  
 Institution: Amrita School of Computing, Coimbatore, Amrita Vishwa Vidyapeetham, India
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Citation
 
 If you use this code in your research, please cite:
