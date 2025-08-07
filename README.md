@@ -24,11 +24,11 @@ The system consists of five main phases:
 5. **Real-time Video Display and System Termination**
 
 Diagram showcasing the model's training flow from dataset collection to validation:
-![System Architecture](assets/system_architecture.jpg)
+![System Architecture](system_architecture.jpg)
 
 ## Sample Detections
 These snapshots illustrate YOLOv8 detecting mobile phones in real-world classroom footage:
-![Sample Detections](assets/sample_detections_grid.jpg)
+![Sample Detections](sample_detections_grid.jpg)
 
 ## Performance Metrics
 
