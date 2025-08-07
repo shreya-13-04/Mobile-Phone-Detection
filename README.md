@@ -23,6 +23,13 @@ The system consists of five main phases:
 4. **Adaptive Alert Triggering Mechanism**
 5. **Real-time Video Display and System Termination**
 
+Diagram showcasing the model's training flow from dataset collection to validation:
+![System Architecture](assets/system_architecture.png)
+
+## Sample Detections
+These snapshots illustrate YOLOv8 detecting mobile phones in real-world classroom footage:
+![Sample Detections](assets/sample_detections_grid.png)
+
 ## Performance Metrics
 
 | Metric | Value |
