@@ -28,7 +28,7 @@ Diagram showcasing the model's training flow from dataset collection to validati
 
 ## Sample Detections
 These snapshots illustrate YOLOv8 detecting mobile phones in real-world classroom footage:
-![Sample Detections](sample_detections_grid.jpg)
+![Sample Detections](sample_detections_grid.png)
 
 ## Performance Metrics
 
