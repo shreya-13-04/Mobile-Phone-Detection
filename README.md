@@ -155,24 +155,6 @@ detector.run()
 - 5-second cooldown period between alerts
 - Asynchronous audio playback to avoid blocking detection
 
-## File Structure
-
-```
-yolov8-phone-detection/
-├── phone_detection.py          # Main detection script
-├── requirements.txt            # Python dependencies
-├── yolov8n.pt                 # YOLOv8 model weights
-├── warning.mp3                # Alert sound file
-├── README.md                  # This file
-├── assets/
-│   ├── architecture_diagram.png
-│   └── sample_detections.png
-├── docs/
-│   └── research_paper.pdf
-└── utils/
-    ├── __init__.py
-    ├── detection_utils.py     # Utility functions
-    └── visualization.py       # Visualization helpers
 ```
 
 ## Configuration
