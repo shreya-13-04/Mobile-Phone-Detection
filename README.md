@@ -277,8 +277,8 @@ If you use this code in your research, please cite:
 ## Contact
 
 For questions or support, please contact:
-- Shreya B: cb.en.u4cse23347@cb.students.amrita.edu
-- Pooja Shree S: cb.en.u4cse23346@cb.students.amrita.edu
+- Shreya B: cb.sc.u4cse23347@cb.students.amrita.edu
+- Pooja Shree S: cb.sc.u4cse23346@cb.students.amrita.edu
 - Jeyakumar G (Corresponding Author): g_jeyakumar@cb.amrita.edu
 
 ## Acknowledgments
