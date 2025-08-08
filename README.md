@@ -4,15 +4,7 @@
 
 This project implements an AI-driven real-time mobile phone detection system specifically designed for classroom surveillance and examination monitoring. The system leverages YOLOv8 deep learning architecture to detect unauthorized mobile phone usage in educational environments with high accuracy and efficiency.
 
-## Features
 
-- **Real-time Detection**: Processes video streams at 18-22 FPS with minimal latency
-- **High Accuracy**: Achieves 93.47% detection accuracy with 100% recall
-- **Adaptive Alerting**: Smart alert system prevents audio spamming with 5-second intervals
-- **Region of Interest (ROI)**: Optimized processing focusing on lower two-thirds of frame
-- **Multithreaded Architecture**: Parallel frame acquisition and processing
-- **Frame Optimization**: Frame skipping strategy reduces computational overhead by 30%
-- **Real-time Alerts**: Instant audio notifications for unauthorized phone usage
 
 ## System Architecture
 
